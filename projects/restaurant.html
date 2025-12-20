@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Restaurant Food Delivery — Case Study</title>
+  <title><title>SmartEats — Case Study</title>
+</title>
 
   <!-- Bootstrap (matches template vendor style) -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -28,7 +29,7 @@
 <body>
 
   <!-- Header -->
-  <h1>Restaurant Food Delivery — Microservices on AWS EKS</h1>
+  <h1>SmartEats — Cloud-Native Food Ordering Platform</h1>
   <p class="lead-muted">
     Cloud-native platform with <strong>Spring Boot microservices</strong> and an <strong>Angular</strong> SPA.
     End-to-end automation: <strong>Jenkins → Docker → ArgoCD (GitOps)</strong> to <strong>AWS EKS (ALB)</strong>.
@@ -37,8 +38,8 @@
 
   <!-- Quick CTAs -->
   <p class="mb-2">
-    <a class="btn btn-sm btn-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering">GitHub Organization</a>
-    <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/FoodOrder-Fe">Frontend (Angular)</a>
+    <a class="btn btn-sm btn-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative">GitHub Organization</a>
+    <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/food-deliver-app">Frontend (Angular)</a>
   </p>
 
   <!-- Stack badges -->
@@ -70,9 +71,9 @@
     <li class="nav-item" role="presentation">
       <button class="nav-link" id="services-tab" data-bs-toggle="tab" data-bs-target="#services" type="button" role="tab">Services</button>
     </li>
-    <li class="nav-item" role="presentation">
+    <!-- <li class="nav-item" role="presentation">
       <button class="nav-link" id="links-tab" data-bs-toggle="tab" data-bs-target="#links" type="button" role="tab">Links</button>
-    </li>
+    </li> -->
   </ul>
 
   <div class="tab-content pt-3" id="caseTabsContent">
@@ -132,37 +133,37 @@
             <td><strong>FoodCatalogue-MS</strong></td>
             <td>Items, categories, pricing</td>
             <td>MySQL (RDS)</td>
-            <td><a target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/foodcatologue-MS">Repo</a></td>
+            <td><a target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/foodinfo">Repo</a></td>
           </tr>
           <tr>
             <td><strong>Restaurant-MS</strong></td>
             <td>Restaurants, menus, availability</td>
             <td>MySQL (RDS)</td>
-            <td><a target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/Restaurant-MS">Repo</a></td>
+            <td><a target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/listofrestaurants">Repo</a></td>
           </tr>
           <tr>
             <td><strong>User-MS</strong></td>
             <td>User registration/auth, profiles</td>
             <td>MySQL (RDS)</td>
-            <td><a target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/User-MS">Repo</a></td>
+            <td><a target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/userinfo">Repo</a></td>
           </tr>
           <tr>
             <td><strong>Order-MS</strong></td>
             <td>Cart & order workflow</td>
             <td>MongoDB Atlas</td>
-            <td><a target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/Order-MS">Repo</a></td>
+            <td><a target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/orderservice">Repo</a></td>
           </tr>
           <tr>
             <td><strong>Eureka-service</strong></td>
             <td>Service registry & discovery</td>
             <td>—</td>
-            <td><a target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/eureka-service">Repo</a></td>
+            <td><a target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/Eureka">Repo</a></td>
           </tr>
           <tr>
             <td><strong>FoodOrder-Fe</strong></td>
             <td>Angular SPA</td>
             <td>—</td>
-            <td><a target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/FoodOrder-Fe">Repo</a></td>
+            <td><a target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/food-deliver-app">Repo</a></td>
           </tr>
         </tbody>
       </table>
@@ -178,15 +179,15 @@
     <!-- Links -->
     <div class="tab-pane fade" id="links" role="tabpanel">
       <p>
-        <a class="btn btn-sm btn-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering">GitHub Organization</a>
-        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/FoodOrder-Fe">Frontend (Angular)</a>
+        <a class="btn btn-sm btn-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative">GitHub Organization</a>
+        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/food-deliver-app">Frontend</a>
       </p>
       <p>
-        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/foodcatologue-MS">FoodCatalogue-MS</a>
-        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/Restaurant-MS">Restaurant-MS</a>
-        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/User-MS">User-MS</a>
-        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/Order-MS">Order-MS</a>
-        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/RestaurantFoodOrdering/eureka-service">Eureka-service</a>
+        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/foodinfo">FoodCatalogue-Service</a>
+        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/listofrestaurants">Restaurant-Service</a>
+        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/userinfo">User-Service</a>
+        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/orderservice">Order-Service</a>
+        <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener" href="https://github.com/SmartEats-cloudNative/Eureka">Eureka-service</a>
       </p>
       <p class="lead-muted mt-2">
         *Deployed and tested on AWS free-tier infrastructure with production-style CI/CD and GitOps.*
